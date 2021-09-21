@@ -1,0 +1,11 @@
+# Cloud
+.cloud
+
+# Tests
+tests
+phpunit.xml.dist
+
+# Build
+#.env.test
+var
+vendor

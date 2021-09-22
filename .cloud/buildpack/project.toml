@@ -1,0 +1,8 @@
+[build]
+exclude = [
+    '/.cloud',
+    '/var',
+    '/vendor',
+    '/tests',
+    '/.env.test'
+]

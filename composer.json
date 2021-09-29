@@ -81,7 +81,8 @@
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
             "requirements-checker": "script",
-            "doctrine:database:create --if-not-exists": "symfony-cmd"
+            "doctrine:database:create --if-not-exists": "symfony-cmd",
+            "doctrine:migrations:migrate --no-interaction": "symfony-cmd"
         },
         "post-install-cmd": [
             "@auto-scripts"
